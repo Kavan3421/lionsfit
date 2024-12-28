@@ -19,6 +19,14 @@ app.get("/", async (req, res) => {
 
 app.use("/api/user", UserRoutes);
 
+app.use(
+    cors({
+        origin: 'https://lionsfit.netlify.app', // Your frontend URL
+        methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allowed HTTP methods
+        allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+    })
+);
+
 app.use((err, req, res, next) => {
   const status = err.status || 500;
   const message = err.message || "Something went wrong";
