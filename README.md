@@ -57,5 +57,7 @@ LionsFit is a fitness web application designed to help users track their workout
 This project is licensed under the MIT License.
 
 ## Contact
-For inquiries or support, please contact @kavan-patel-763319251(https://www.linkedin.com/in/kavan-patel-763319251/).
+For inquiries or support, please contact [your email or social media].
+
+Connect with me on [LinkedIn](https://www.linkedin.com/in/kavan-patel-763319251/).
 
